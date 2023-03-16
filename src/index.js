@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import App1 from './TestingCSS';
+import Sass from './Sass';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -11,7 +12,8 @@ root.render(
     <App />
     <br></br>
     <App1 />
-
+    <br></br>
+    <Sass />
   </React.StrictMode>
 );
 
