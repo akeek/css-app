@@ -5,15 +5,18 @@ import App from './App';
 import App1 from './TestingCSS';
 import Sass from './Sass';
 import reportWebVitals from './reportWebVitals';
+import Theme from './styles/theme';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    <br></br>
-    <App1 />
-    <br></br>
-    <Sass />
+      <Theme>
+        <App />
+        <br></br>
+        <App1 />
+        <br></br>
+        <Sass />
+      </Theme>
   </React.StrictMode>
 );
 
