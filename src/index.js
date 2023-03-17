@@ -6,6 +6,7 @@ import App1 from './TestingCSS';
 import Sass from './Sass';
 import reportWebVitals from './reportWebVitals';
 import Theme from './styles/theme';
+import App3 from './UseingState';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,8 @@ root.render(
         <App1 />
         <br></br>
         <Sass />
+        <br></br>
+        <App3 />
       </Theme>
   </React.StrictMode>
 );
