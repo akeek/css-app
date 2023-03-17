@@ -1,5 +1,6 @@
 import './styles.css'
 import styled from 'styled-components';
+import Logo from './images/logo.png';
 
 
 const Button = styled.button`
@@ -22,6 +23,7 @@ function App() {
   return (
       <div>
         <div>Hello world</div>
+        <img src={Logo} alt="Logo" />
         <p className='text'>Paragraph 1</p>
         <Button isActive={isActive}>Hello</Button>
       </div>
