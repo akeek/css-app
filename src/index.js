@@ -8,6 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import Theme from './styles/theme';
 import App3 from './UseingState';
 import App4 from './UseingState2';
+import App5 from './UseEffect';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,6 +23,8 @@ root.render(
         <App3 />
         <br></br>
         <App4 />
+        <br></br>
+        <App5 />
       </Theme>
   </React.StrictMode>
 );
