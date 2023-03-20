@@ -7,6 +7,7 @@ import Sass from './Sass';
 import reportWebVitals from './reportWebVitals';
 import Theme from './styles/theme';
 import App3 from './UseingState';
+import App4 from './UseingState2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,8 @@ root.render(
         <Sass />
         <br></br>
         <App3 />
+        <br></br>
+        <App4 />
       </Theme>
   </React.StrictMode>
 );
