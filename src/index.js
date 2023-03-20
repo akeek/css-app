@@ -9,6 +9,7 @@ import Theme from './styles/theme';
 import App3 from './UseingState';
 import App4 from './UseingState2';
 import App5 from './UseEffect';
+import App6 from './UseReducer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,6 +26,8 @@ root.render(
         <App4 />
         <br></br>
         <App5 />
+        <br></br>
+        <App6 />
       </Theme>
   </React.StrictMode>
 );
