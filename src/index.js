@@ -12,10 +12,12 @@ import App5 from './UseEffect';
 import App6 from './UseReducer';
 import App7 from './ShoppingCart';
 import App8 from './UseReducer2';
+import App9 from './Router';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <BrowserRouter>
       <Theme>
         <App />
         <br></br>
@@ -34,8 +36,11 @@ root.render(
         <App7 />
         <br></br>
         <App8 />
+        <br></br>
+        <hr></hr>
+        <App9 />
       </Theme>
-  </React.StrictMode>
+  </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
