@@ -16,6 +16,7 @@ import App9 from './Router';
 import { BrowserRouter } from 'react-router-dom';
 import App11 from './ApiCall2';
 import App12 from './ApiSingle';
+import App13 from './Todo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -45,6 +46,8 @@ root.render(
         <App11 />
         <hr></hr>
         <App12 />
+        <hr></hr>
+        <App13 />
       </Theme>
   </BrowserRouter>
 );

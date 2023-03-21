@@ -20,6 +20,7 @@ function Post() {
         const response = await fetch(url);
         const json = await response.json();
         console.log(json)
+        console.log(json)
         setData(json);
       } catch (error) {
         console.log(error);
