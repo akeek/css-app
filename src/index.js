@@ -14,6 +14,8 @@ import App7 from './ShoppingCart';
 import App8 from './UseReducer2';
 import App9 from './Router';
 import { BrowserRouter } from 'react-router-dom';
+import App11 from './ApiCall2';
+import App12 from './ApiSingle';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -39,6 +41,10 @@ root.render(
         <br></br>
         <hr></hr>
         <App9 />
+        <hr></hr>
+        <App11 />
+        <hr></hr>
+        <App12 />
       </Theme>
   </BrowserRouter>
 );
