@@ -10,6 +10,8 @@ import App3 from './UseingState';
 import App4 from './UseingState2';
 import App5 from './UseEffect';
 import App6 from './UseReducer';
+import App7 from './ShoppingCart';
+import App8 from './UseReducer2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -28,6 +30,10 @@ root.render(
         <App5 />
         <br></br>
         <App6 />
+        <br></br>
+        <App7 />
+        <br></br>
+        <App8 />
       </Theme>
   </React.StrictMode>
 );
